@@ -3,6 +3,7 @@
 ### Все дальнейшие действия производятся в командной строке, запущенной в папке с проектом
 
 ### Компиляция:
+ - mkdir bin
  - javac -encoding UTF-8 -sourcepath ./src -d bin src/Main.java
 ### Собираем исполняемый файл:
  - jar cvfM Tests.jar META-INF/MANIFEST.MF -C bin .
