@@ -87,7 +87,6 @@ public class Hard {
     }
 
     private static int factorial(int x) {
-        if (x < 0) throw new IllegalArgumentException("x должен быть >=0");
         int fact = 1;
         for (int i = 2; i <= x; i++)
             fact *= i;
@@ -95,7 +94,6 @@ public class Hard {
     }
 
     private static int fib(int x) {
-        if (x < 0) throw new IllegalArgumentException("x должен быть >=0");
         if (x == 1) return 1;
         if (x == 2) return 1;
         return fib(x - 1) + fib(x - 2);
